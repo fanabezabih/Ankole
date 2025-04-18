@@ -1,0 +1,324 @@
+body {
+    margin: auto;
+    overflow-x: hidden;
+
+    
+}
+
+.events {
+    display: flex;
+    color: white;
+    text-align: center;
+
+
+
+}
+
+.event-body {
+    overflow: hidden
+}
+
+.events h1 {
+    font-size: 50px;
+}
+
+.events h4 {
+    color: rgb(255, 255, 129);
+}
+
+.acra {
+    background-image: linear-gradient(rgba(34, 33, 33, 0.5), rgba(56, 53, 53, 0.5)), url(images/Acra.jpg);
+    height: 100vh;
+    width: 100vw;
+    padding-top: 17%;
+
+}
+
+.nairobi {
+    background-image: linear-gradient(rgba(34, 33, 33, 0.5), rgba(56, 53, 53, 0.5)), url(images/Nairobi.jpg);
+    height: 150vh;
+    width: 100vw;
+
+    background-repeat: no-repeat
+}
+
+.nairobi img {
+    width: 200px;
+    padding-top: 18%;
+}
+
+.zanzibar {
+    background-image: linear-gradient(rgba(34, 33, 33, 0.5), rgba(56, 53, 53, 0.5)), url(images/Zanzibar.jpg);
+    height: 100vh;
+    width: 100vw;
+    padding-top: 17%;
+
+}
+
+.nairobi {}
+
+.nav-bars {
+    color: white;
+    position: absolute;
+    height: 30px;
+    width: 42%;
+    border-radius: 50px;
+    background-color: black;
+    top: 82%;
+    padding-top: 1%;
+    padding-bottom: 2%;
+    padding-left: 1%;
+    margin-left: 28%;
+    font-size: 17px;
+
+}
+
+.nav-bars a {
+    text-decoration: none;
+    color: white;
+    gap: 1%;
+    align-items: center;
+    padding: 1%;
+    margin-left: 2%;
+}
+
+.reserve {
+    background-color: grey;
+    height: 50px;
+    width: 135px;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+
+}
+
+.reserve:hover {
+    background: white;
+}
+
+.social-medias {
+    display: flex;
+    gap: 14px;
+
+    position: absolute;
+    left: 155%;
+    top: -845%;
+}
+
+.fa-instagram {
+    font-size: 20px;
+    border: 1px solid white;
+    width: 27px;
+    height: 20px;
+    padding: 7%;
+    border-radius: 65px;
+}
+
+.fa-facebook-f {
+    font-size: 20px;
+    border: 1px solid white;
+    width: 34px;
+    height: 22px;
+    padding-top: 7%;
+    padding-left: 10%;
+    border-radius: 60px;
+}
+
+#whatsapp{
+    padding: 2%;
+
+    position: absolute;
+    left: 155%;
+    top: 8%;
+    font-size: 38px;
+    border: 1px solid black;
+    width: 32px;
+    height: 34px;
+    border-radius: 90px;
+    background-color: rgb(20, 20, 20);
+
+}
+
+#pavilion {
+    color: grey;
+}
+
+.fa-bars {
+    color: grey;
+}
+
+.fa-clock {
+    color: grey;
+}
+
+
+@media screen and (min-width: 320px) and (max-width: 857px) {
+    body {
+        margin: auto;
+      
+   
+    }
+    
+    .events {
+        flex-direction: column;
+        color: white;
+        text-align: center;
+         font-size: 19px;
+    
+    
+    }
+    
+    .event-body {
+        /* overflow: hidden */
+    }
+    
+    .events h1 {
+        font-size: 30px;
+    }
+    
+    .events h4 {
+        color: rgb(255, 255, 129);
+    }
+    
+    .acra {
+        background-image: linear-gradient(rgba(34, 33, 33, 0.5), rgba(56, 53, 53, 0.5)), url(images/Acra.jpg);
+        height: 60vh;
+        width: 100vw;
+        padding-top: 55%;
+    
+    }
+    
+    .nairobi {
+        background-image: linear-gradient(rgba(34, 33, 33, 0.5), rgba(56, 53, 53, 0.5)), url(images/Nairobi.jpg);
+        height: 80vh;
+        width: 430px;
+    
+        background-repeat: no-repeat
+    }
+    
+    .nairobi img {
+        width: 100px;
+        padding-top: 90%;
+    }
+    
+    .zanzibar {
+        background-image: linear-gradient(rgba(34, 33, 33, 0.5), rgba(56, 53, 53, 0.5)), url(images/Zanzibar.jpg);
+        height: 100vh;
+        width: 100px;
+        padding:100% ;
+    
+    }
+    
+    .nairobi h1{
+
+    }
+    
+    .social-medias {
+        display: flex;
+        gap: 14px;
+    
+        position: absolute;
+        left: 77%;
+        margin-top: -40%;
+    }
+    
+    .fa-instagram {
+        font-size: 20px;
+        border: 1px solid white;
+        width: 27px;
+        height: 20px;
+        padding: 7%;
+        border-radius: 65px;
+    }
+    
+    .fa-facebook-f {
+        font-size: 20px;
+        border: 1px solid white;
+        width: 34px;
+        height: 22px;
+        padding-top: 7%;
+        padding-left: 10%;
+        border-radius: 60px;
+    }
+    
+    #whatsapp{
+        padding: 2%;
+    
+        position: absolute;
+        left: 87%;
+        top:115%;
+        font-size: 20px;
+        border: 1px solid black;
+        width: 20px;
+        height: 20px;
+        border-radius: 90px;
+        background-color: rgb(20, 20, 20);
+    
+    }
+    
+    #pavilion {
+        color: grey;
+    }
+    
+    .fa-bars {
+        color: grey;
+    }
+    
+    .fa-clock {
+        color: grey;
+    }
+    
+
+    
+    .nav-bars {
+        display: flex;
+        color: white;
+        position: absolute;
+        height:30px;
+        width:100%;
+        border-radius: 50px;
+        background-color: black;
+        top:70%;
+        padding-top: 1%;
+        padding-bottom: 2%;
+     padding-left: 1%;
+        margin-left: -1%;
+        font-size: 9px;
+     
+    }
+       
+    .nav-bars a{
+        text-decoration: none;
+        color: white;
+        gap:1%;
+    
+    }
+    .reserve{
+        background-color: grey;
+        height: 20px;
+        width: 75px;
+        font-size: 10px;
+        border-radius: 30px;
+        border: none;
+        cursor: pointer;
+        
+        
+    
+    }
+    .reserve:hover{
+        background: white;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

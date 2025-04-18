@@ -1,0 +1,96 @@
+@font-face {
+    font-family: poppins;
+    src: url(Poppins-Regular.ttf);
+}
+
+
+body {
+    margin: auto;
+    overflow-x: hidden;
+
+}
+
+
+
+
+
+
+.nav-bars {
+    color: white;
+    position: absolute;
+    height: 30px;
+    width: 41%;
+    border-radius: 50px;
+    background-color: black;
+    top: 90%;
+    padding-top: 1%;
+    padding-bottom: 2%;
+    padding-left: 1%;
+    margin-left: 33%;
+    font-size: 17px;
+
+}
+
+.nav-bars a {
+    text-decoration: none;
+    color: white;
+    gap: 1%;
+    align-items: center;
+    padding: 1%;
+    margin-left: 2%;
+}
+
+.reserve {
+    background-color: grey;
+    height: 50px;
+    width: 130px;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+
+
+
+}
+
+.reserve:hover {
+    background: white;
+}
+.fa-whatsapp{
+    position: absolute;
+    left: 143%;
+    padding: 2%;
+top: 8%;
+font-size: 38px;
+border: 1px solid black;
+ width: 35px;
+height: 35px;  
+border-radius: 70px;
+background-color: rgb(20, 20, 20);
+
+}
+
+.singer {
+    text-align: center;
+    background-image: linear-gradient(rgba(34, 33, 33, 0.5), rgba(88, 82, 82, 0.5)), url(images/jack_pic.jpg);
+    width: 100vw;
+    height: 190vh;
+    margin-top: -3%;
+
+    background-size: cover;
+  
+
+}
+
+.singer h1 {
+    color: white;
+    padding-top: 22%;
+    padding-left: 8%;
+    font-size: 60px;
+    font-family: poppins;
+}
+.fa-bars{
+    color: grey;
+}
+.fa-clock{
+    color: grey;
+}

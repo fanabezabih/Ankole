@@ -1,0 +1,362 @@
+body{
+    margin: auto;
+    overflow: hidden;
+}
+
+.reservations{
+    display: flex;
+
+ 
+   
+}
+.leaves h1{
+    color: orangered;
+    font-size: 60px;
+}
+.leaves{
+   
+    background-image: linear-gradient(rgba(27, 26, 26, 0.5),rgba(17, 17, 17, 0.5)),url(images/birds.jpg);
+    background-repeat: no-repeat;
+    width: 110vw;
+    height: 100vh;
+    background-size: cover;
+    color: white;
+    justify-items: center;
+    overflow-y: hidden;
+    background-size: cover;
+
+}
+.leaves p{
+    font-size: 30px;
+    padding-top: 5%;
+}
+.leaves img{
+    width: 300px;
+
+}
+.booking{
+    background-color: black;
+    width:100vw;
+    height: 100vh;
+    padding-left: 4%;
+    padding-top: 3%;
+
+
+
+}
+.booking label{
+    color: white;
+
+}
+
+.booking input{
+  background-color: black;
+  padding-left: 1%;
+ 
+ 
+}
+#name{
+   width: 700px;
+   height: 40px;
+   color: white;
+}
+#location{
+    width: 700px;
+    height: 40px;
+    color: white;
+}
+#email{
+    width: 700px;
+    height: 40px;
+    color: white;
+}
+#tel{
+     width: 700px;
+    height: 40px;
+    color: white;
+}
+#guests{
+    width: 700px;
+    height: 40px;
+    color: white;
+}
+#date{
+    width: 700px;
+    height: 40px;
+    color: white;
+}
+#time{
+    width: 700px;
+    height: 40px;
+    color: white;
+}
+.booking button{
+    width: 715px;
+    height: 72px;
+    border-radius: 20px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    font-size: 20px;
+    
+}
+.booking button:hover{
+        background-color:  rgb(226, 197, 143);
+        color:  white;
+
+}
+.nav-bars {
+    color: white;
+    position: absolute;
+    height:30px;
+    width:41%;
+    border-radius: 50px;
+    background-color: black;
+    top:90%;
+    padding-top: 1%;
+    padding-bottom: 2%;
+    padding-left: 1%;
+    margin-left: 28%;
+    font-size: 17px;
+ 
+}
+   
+.nav-bars a{
+    text-decoration: none;
+    color: white;
+    gap:1%;
+    align-items: center;
+    padding: 1%;
+    margin-left: 2%;
+}
+.reserve{
+    background-color: grey;
+    height: 50px;
+    width: 130px;
+    border-radius: 30px;
+    border: none;
+    color: white;
+    
+
+}
+.fa-bars{
+    color: grey;
+}
+.fa-clock{
+    color: grey;
+} 
+.fa-whatsapp{
+    padding: 2% ;
+  
+    position: absolute;
+    left: 159%;
+top: 8%;
+font-size: 38px;
+border: 1px solid black;
+ width: 32px;
+height: 34px;  
+border-radius: 90px;
+background-color: rgb(20, 20, 20);
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 320px) and (max-width: 857px) {
+
+
+    body{
+        margin: auto;
+        overflow-y: scroll;
+     
+    }
+    
+    .reservations{
+        /* display: flex; */
+        flex-direction: column;
+    
+     
+       
+    }
+    .leaves h1{
+        color: orangered;
+        font-size: 60px;
+    }
+    .leaves{
+       
+        background-image: linear-gradient(rgba(27, 26, 26, 0.5),rgba(17, 17, 17, 0.5)),url(images/birds.jpg);
+        background-repeat: no-repeat;
+        width: 100vw;
+        height: 80vh;
+        background-size: cover;
+        color: white;
+        justify-items: center;
+        /* overflow-y: hidden; */
+        background-size: cover;
+    
+    }
+    .leaves p{
+        font-size: 30px;
+        padding-top: 5%;
+    }
+    .leaves img{
+        width: 300px;
+    
+    }
+    .booking{
+        background-color: black;
+        width:96vw;
+        height: 100vh;
+        /* padding-left: 4%; */
+        padding-top: 20%;
+    
+    
+    
+    }
+    .booking label{
+        color: white;
+    
+    }
+    
+    .booking input{
+      background-color: black;
+      height: 10vh;
+      /* padding-left: 1%; */
+     
+     
+    }
+    #name{
+       width: 380px;
+       height: 40px;
+       color: white;
+    }
+    #location{
+        width: 380px;
+        height: 40px;
+        color: white;
+    }
+    #email{
+        width: 380px;
+        height: 40px;
+        color: white;
+    }
+    #tel{
+         width: 380px;
+        height: 40px;
+        color: white;
+    }
+    #guests{
+        width: 380px;
+        height: 40px;
+        color: white;
+    }
+    #date{
+        width: 380px;
+        height: 40px;
+        color: white;
+    }
+    #time{
+        width: 380px;
+        height: 40px;
+        color: white;
+    }
+    .booking button{
+        width: 390px;
+        height: 72px;
+        border-radius: 20px;
+        transition-duration: 0.4s;
+        cursor: pointer;
+        font-size: 20px;
+        
+    }
+    .booking button:hover{
+            background-color:  rgb(226, 197, 143);
+            color:  white;
+    
+    }
+    
+    .fa-bars{
+        color: grey;
+    }
+    .fa-clock{
+        color: grey;
+    } 
+    #whatsapp{
+        /* padding: 2% ; */
+      
+        position: absolute;
+
+    top: -7vh;
+    left: 39vh;
+    font-size: 38px;
+    border: 1px solid black;
+     width: 32px;
+    height: 34px;  
+    border-radius: 90px;
+    background-color: rgb(20, 20, 20);
+    
+    }
+    
+
+
+
+
+    .nav-bars {
+        display: flex;
+        color: white;
+        position: absolute;
+        height:30px;
+        width:100%;
+        border-radius: 50px;
+        background-color: black;
+        top:180%;
+        padding-top: 1%;
+        padding-bottom: 2%;
+    
+        margin-left: -1%;
+        font-size: 10px;
+    
+    }
+      
+    .nav-bars a{
+        text-decoration: none;
+        color: white;
+        gap:1%;
+   
+    }
+    .reserve{
+        background-color: grey;
+        height: 20px;
+        width: 65px;
+        font-size: 10px;
+        border-radius: 30px;
+        border: none;
+        cursor: pointer;
+       
+       
+   
+    }
+    .reserve:hover{
+        background: white;
+    }
+}
