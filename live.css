@@ -34,7 +34,7 @@ body{
 }
 
 .musicians{
-    margin-left:10%;
+    margin-left:50%;
  
   
 }
@@ -51,7 +51,7 @@ body{
   margin-top: 3%;
 margin-left: 12%;
 overflow: hidden;
-position: static;
+position: fixed;
  }
  .text h2{
     font-size: 60px;
@@ -83,7 +83,7 @@ position: static;
 }
 .nav-bars {
     color: white;
-    position: absolute;
+    position: fixed;
     height:30px;
     width:41%;
     border-radius: 50px;
@@ -106,7 +106,14 @@ position: static;
     margin-left: 2%;
 }
 .nav-bars a:hover{
-    background: black;
+       
+    background: rgb(34, 33, 33);
+   
+
+}
+.nav-bars a.active{
+    background-color: black;
+    color: rgb(43, 42, 42);
 }
 .reserve{
     background-color: grey;

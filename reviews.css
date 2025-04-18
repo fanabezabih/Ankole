@@ -57,13 +57,13 @@ text-align:center;
     }
 }
 #top-quote{
-    margin-left: 29%;
+    margin-left: 28%;
     color: rgb(231, 23, 23);
     font-size: 40px;
 }
 #bottom-quote{
-    margin-left: 72%;
-    bottom: 31%;
+    margin-left: 71%;
+    bottom: 28%;
     position: absolute;
     color: rgb(231, 23, 23);
     font-size: 40px;
@@ -72,26 +72,34 @@ text-align:center;
     font-size: 40px;
     color: white;
     margin-top: 70px;
-    color: gray;
+    color: rgb(39, 38, 38);
 }
 #next{
     font-size: 40px;
     color: white;
     margin-top: 70px;
-    color: gray;
+    color: rgb(39, 38, 38);
 }
 
   
-  #whatsapp {
-    position:absolute;
-    background-color: rgb(15, 14, 14);
-    border-radius: 80px;
-    padding: 30px;
-    margin-top: 400px;
-    margin-left: 140%;
-    bottom: 4%;
-    right: 3%;
-  }
+#whatsapp{
+    padding: 2% ;
+  
+    position: absolute;
+    left: 152%;
+top: 8%;
+font-size: 38px;
+border: 1px solid black;
+ width: 32px;
+height: 34px;  
+border-radius: 90px;
+background-color: rgb(20, 20, 20);
+
+}
+
+
+
+
   .nav-bars {
    
     color: white;
@@ -133,3 +141,28 @@ text-align:center;
 .reserve:hover{
     background: white;
 }
+
+
+.description3{
+    display: flex;
+    gap: 50px;
+    margin-top: -15px;
+    padding-left: 32%;
+    line-height: 35px;
+    color: white;
+    text-align:center;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+    

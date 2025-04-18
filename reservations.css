@@ -44,8 +44,9 @@ body{
 
 
 }
-.booking label{
+label{
     color: white;
+    margin-bottom: 1%;
 
 }
 
@@ -127,6 +128,16 @@ body{
     align-items: center;
     padding: 1%;
     margin-left: 2%;
+}
+.nav-bars a:hover{
+       
+    background: rgb(34, 33, 33);
+   
+
+}
+.nav-bars a.active{
+    background-color: black;
+    color: rgb(43, 42, 42);
 }
 .reserve{
     background-color: grey;

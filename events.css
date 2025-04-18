@@ -38,7 +38,7 @@ body {
     background-image: linear-gradient(rgba(34, 33, 33, 0.5), rgba(56, 53, 53, 0.5)), url(images/Nairobi.jpg);
     height: 150vh;
     width: 100vw;
-
+      background-size: cover;
     background-repeat: no-repeat
 }
 
@@ -81,7 +81,16 @@ body {
     padding: 1%;
     margin-left: 2%;
 }
+.nav-bars a:hover{
+       
+    background: rgb(34, 33, 33);
+   
 
+}
+.nav-bars a.active{
+    background-color: black;
+    color: rgb(43, 42, 42);
+}
 .reserve {
     background-color: grey;
     height: 50px;
@@ -103,11 +112,12 @@ body {
     position: absolute;
     left: 155%;
     top: -845%;
+    color: darkgrey;
 }
 
 .fa-instagram {
     font-size: 20px;
-    border: 1px solid white;
+    border: 1px solid darkgray;
     width: 27px;
     height: 20px;
     padding: 7%;
@@ -116,7 +126,7 @@ body {
 
 .fa-facebook-f {
     font-size: 20px;
-    border: 1px solid white;
+    border: 1px solid darkgray;
     width: 34px;
     height: 22px;
     padding-top: 7%;

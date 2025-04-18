@@ -95,6 +95,16 @@ body{
     padding: 1%;
     margin-left: 2%;
 }
+.nav-bars a:hover{
+       
+    background: rgb(34, 33, 33);
+   
+
+}
+.nav-bars a.active{
+    background-color: black;
+    color: rgb(43, 42, 42);
+}
 .reserve{
     background-color: grey;
     height: 50px;
@@ -107,7 +117,8 @@ body{
 
 }
 .reserve:hover{
-    background: white;
+    background-color: white;
+    color: black;
 }
 .social-medias{
     display: flex;
@@ -116,10 +127,11 @@ body{
 position: absolute;
 left: 145%;
 top: -870%;
+color: darkgrey;
 }
 .fa-instagram{
     font-size: 20px;
-    border: 1px solid white;
+    border: 1px solid darkgrey;
     width: 27px;
     height: 20px;
    padding: 7%;
@@ -127,7 +139,7 @@ top: -870%;
 }
 .fa-facebook-f{
     font-size: 20px;
-    border: 1px solid white;
+    border: 1px solid darkgrey;
     width: 32px;
     height: 22px;
    padding-top: 5% ;
@@ -258,6 +270,7 @@ background-color: rgb(20, 20, 20);
         gap:1%;
    
     }
+   
     .reserve{
         background-color: grey;
         height: 20px;
