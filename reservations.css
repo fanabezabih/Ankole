@@ -199,12 +199,13 @@ background-color: rgb(20, 20, 20);
     body{
         margin: auto;
         overflow-y: scroll;
-     
+        overflow-x: hidden;
     }
     
     .reservations{
-        /* display: flex; */
+      
         flex-direction: column;
+      
     
      
        
@@ -257,42 +258,42 @@ background-color: rgb(20, 20, 20);
      
     }
     #name{
-       width: 380px;
+       width: 350px;
        height: 40px;
        color: white;
     }
     #location{
-        width: 380px;
+        width: 350px;
         height: 40px;
         color: white;
     }
     #email{
-        width: 380px;
+        width: 350px;
         height: 40px;
         color: white;
     }
     #tel{
-         width: 380px;
+         width: 350px;
         height: 40px;
         color: white;
     }
     #guests{
-        width: 380px;
+        width: 350px;
         height: 40px;
         color: white;
     }
     #date{
-        width: 380px;
+        width: 350px;
         height: 40px;
         color: white;
     }
     #time{
-        width: 380px;
+        width: 350px;
         height: 40px;
         color: white;
     }
     .booking button{
-        width: 390px;
+        width: 360px;
         height: 72px;
         border-radius: 20px;
         transition-duration: 0.4s;
@@ -313,12 +314,12 @@ background-color: rgb(20, 20, 20);
         color: grey;
     } 
     #whatsapp{
-        /* padding: 2% ; */
+      
       
         position: absolute;
 
     top: -7vh;
-    left: 39vh;
+    left: 33vh;
     font-size: 38px;
     border: 1px solid black;
      width: 32px;
@@ -337,15 +338,15 @@ background-color: rgb(20, 20, 20);
         color: white;
         position: absolute;
         height:30px;
-        width:100%;
+        width:85%;
         border-radius: 50px;
         background-color: black;
         top:180%;
         padding-top: 1%;
         padding-bottom: 2%;
     
-        margin-left: -1%;
-        font-size: 10px;
+        margin-left: 1%;
+        font-size: 9px;
     
     }
       
